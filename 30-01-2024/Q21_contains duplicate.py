@@ -28,4 +28,4 @@ Constraints:
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        return len(set(nums)) != len
+        return len(set(nums)) != len(set(nums))
